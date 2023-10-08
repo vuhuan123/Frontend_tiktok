@@ -1,0 +1,73 @@
+.wrapper {
+    --search-border-radius: 92px;
+    position: fixed;
+    width: 100%;
+    height: var(--default-layout-header-heigh);
+    box-shadow: 0px 1px 1px 0 rgba(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.inner {
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: var(--defaul-layout-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--default-layout-horizontal-space);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.action-btn {
+    background-color: transparent;
+    font-size: 2.2rem;
+    color: #161823;
+    padding: 4px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.more-btn {
+    font-size: 2rem;
+    margin-left: 24px;
+    padding: 4px 8px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.img-user {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.count-mail {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    top: 0;
+    font-size: 14px;
+    right: 17%;
+    background-color: red;
+    color: #fff;
+    border-radius: 40%;
+}
+
+.logo-link {
+    display: flex;
+    margin-right: 85px;
+}
